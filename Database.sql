@@ -81,3 +81,7 @@ zip varchar(255),
 insert into Addressdata values('Praful','Gabhane','Sardar Nagar','Tumsar','MH','369852')
 insert into Addressdata values('Preeti','Gabhane','52 area','Nagpur','MH','789654')
 insert into Addressdata values('Pragati','Gabhane','639','Pune','MH','236598')
+
+select * from FNameAndType
+select * from person
+select * from Addressdata
