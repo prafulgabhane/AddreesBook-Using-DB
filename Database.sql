@@ -47,4 +47,6 @@ where FirstName='Ganesh'
 
 select COUNT(type) from AddressBook
 
+insert into AddressBook values('Praful','Gabhane','Sardar Nagar','Tumsar','MH','369852','7777777777','praful@gmail.com','friend')
+
 
