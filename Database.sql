@@ -23,3 +23,6 @@ where FirstName='Praful'
 
 delete from AddressBook
 where FirstName='Preeti'
+
+select * from AddressBook
+where City='Mumbai' or State='MH'
