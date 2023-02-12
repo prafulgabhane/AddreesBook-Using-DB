@@ -85,4 +85,3 @@ insert into Addressdata values('Pragati','Gabhane','639','Pune','MH','236598')
 select * from FNameAndType
 select * from person
 select * from Addressdata
-
