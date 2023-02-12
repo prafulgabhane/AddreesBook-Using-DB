@@ -29,3 +29,22 @@ where City='Mumbai' or State='MH'
 
 select COUNT(City) from AddressBook
 select COUNT(State) from AddressBook
+
+select * from AddressBook order by FirstName asc
+
+Alter table AddressBook
+ add Type varchar(255)
+ select * from AddressBook
+ update AddressBook
+set type='friend'
+where FirstName='Praful'
+update AddressBook
+set type='family'
+where FirstName='Pragati'
+update AddressBook
+set type='profession'
+where FirstName='Ganesh'
+
+select COUNT(type) from AddressBook
+
+
